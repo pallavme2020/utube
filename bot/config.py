@@ -2,23 +2,23 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = os.environ.get("1890325770:AAHI_ld73uZQ3ulKt6tK5QbegcDOXltyDOQ")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", 'youtubeitbot')
+    SESSION_NAME = os.environ.get("myytupload2")
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = int(os.environ.get("5226399"))
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("a51b2a511e44b628fd710814b6eef601")
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = os.environ.get("295736301007-1pbktoua54bvcdpnksvnt2ngm91bh92o.apps.googleusercontent.com")
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = os.environ.get("K57v262rMJwq3A01o6Hn_ML8")
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = int(os.environ.get("1454420757"))
     
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", '')
+    AUTH_USERS_TEXT = os.environ.get("1454420757", '')
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
+    AUTH_USERS = [BOT_OWNER, 1454420757] + ([int(user.strip()) for user in AUTH_USERS_TEXT.split(",")] if AUTH_USERS_TEXT else [])
     
     VIDEO_DESCRIPTION = os.environ.get("VIDEO_DESCRIPTION", '').replace('<', '').replace('>', '')
     
